@@ -1,2 +1,2 @@
 #!/bin/sh
-# npm publish
+npm publish
