@@ -11,7 +11,22 @@ npm install list_end_points
 
 ## Usage
 
+```ts
+// in typescript
+import express, { Application } from "express";
+import listEndpoints from "list_end_points";
+
+const app: Application = express();
+
+// Define your routes and middleware here
+// ...
+
+// Display registered endpoints in the console
+listEndpoints(app);
+```
+
 ```js
+// in javascript
 const express = require("express");
 const listEndpoints = require("list_end_points");
 
