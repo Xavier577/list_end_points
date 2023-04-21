@@ -36,7 +36,7 @@ const app = express();
 // ...
 
 // Display registered endpoints in the console
-listEndpoints(app);
+listEndpoints.default(app);
 ```
 
 This will output the registered endpoints in the following format:

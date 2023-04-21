@@ -291,6 +291,14 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
+list_end_points@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/list_end_points/-/list_end_points-2.0.4.tgz#33d73dc87659b49be2564595ccadb04b83d38ce8"
+  integrity sha512-BCTnopa8dibPUSFkL/lAz/ivJIKN9hIgsP52c1GECY/dMDqTx1IZg3TS4CdpQpN4dBmyQwzrSfUJOMizp+8j4w==
+  dependencies:
+    colors "^1.4.0"
+    express "^4.18.2"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
